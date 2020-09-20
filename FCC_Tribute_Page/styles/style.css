@@ -1,0 +1,46 @@
+html {
+    background-color: #4E4E4E;
+    
+  }
+  body {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Amita;
+  }
+  img {
+    width: 100vmax;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .main-image {
+      width: 50vmax;
+      max-width: 100%;
+      padding: 10px;
+      margin: 0 auto;
+  }
+   .thin-blue-border {
+      border-color: navy;
+      border-width: 3px;
+      border-style: solid;
+      border-radius: 5%;
+  }
+  .box-shadow {
+    
+  }
+  h1 {
+    font-size: 15vmin;
+    margin: auto;
+    color: navy;
+  }
+  #img-div {
+    background: gray;
+    padding: 10px;
+    margin: 0 auto;
+    
+  }
+  #img-caption {
+    margin: 15px 0 15px 0;
+  }
+  

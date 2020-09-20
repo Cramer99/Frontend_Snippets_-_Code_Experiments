@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<link href="styles/style.css" rel="stylesheet">
+<title>FCC: Survey Form</title>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+  <p id="description" class="description text-center"> Please complete the following survey to help improve our service!
+    </p>
+  </header>
+ <div>
+  <form id="survey-form">
+    <h1 class="text-center">Complete this form</h1>
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             placeholder="Enter your name"
+             required />
+    </div>
+    <div class="email-label">
+      <label id="email-label"
+             for="email">Email</label>
+      <input
+             type="email"
+             name="email"
+             id="email"
+             class="form-control"
+             placeholder="Enter your email"
+             required />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Hours spent daydreaming <span class="clue">
+        (optional)
+        </span></label>
+      <input
+             type="number"
+             name="hours"
+             id="number"
+             min="0"
+             max="24"
+             class="form-control"
+             placeholder="hours"
+             />
+    </div>
+    <div class="form-group">
+      <p>Select your favorite color</p>
+        <select id="dropdown" name="color" class="form-control" required>
+          <option seleted value> Select your favorite color</option>
+          <option value="purple">Purple</option>
+          <option value="lime green">Lime Green</option>
+          <option value="turquoise">Turquoise</option>
+          <option value="orange">Orange</option>
+          <option value="yellow">Yellow</option>
+      </select>
+          </div>
+  
+    <div class="form-group">
+      
+      <p>Is this survey useful?</p>
+        <label>
+        <input
+               name="user-recommend"
+               value="no"
+               type="radio"
+               class="input-radio"
+               checked/>No</label>
+       <label>
+        <input
+               name="user-recommend"
+               value="I don't know"
+               type="radio"
+               class="input-radio"
+               checked/>I don't know</label>
+       <label>
+        <input
+               name="user-recommend"
+               value="yes"
+               type="radio"
+               class="input-radio"
+               checked/>Yes</label>
+       <label>
+        <input
+               name="user-recommend"
+               value="Can you repeatCan you repeat the question?"
+               type="radio"
+               class="input-radio"
+               checked/>Can you repeat the question?</label>
+      </div>
+  <div class="form-group">
+    <p>Do you want to check a box? <span class="clue">(Check all that apply)</span> </p>
+    <label>
+      <input
+             name="prefer"
+             value="Yes"
+             type="checkbox"
+             class="input-checkbox"
+             />Yes</label>
+    <label>
+      <input
+             name="prefer"
+             value="No"
+             type="checkbox"
+             class="input-checkbox"
+             />No</label>
+    <label>
+      <input
+             name="prefer"
+             value="More checkboxes please!"
+             type="checkbox"
+             class="input-checkbox"
+             />More checkboxes please!</label>
+    <label>
+      <input
+             name="prefer"
+             value="Stop with the checkboxes!"
+             type="checkbox"
+             class="input-checkbox"
+             />Stop with the checkboxes!</label>
+      </div>
+      <div class="form-group">
+        <p>Add any additional comments or suggestions</p>
+        <textarea
+                  id="comments"
+                  class="input-textarea"
+                  name="comment"
+                  placeholder="Enter your comment here..."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+      </form>
+    </div>
+    </div>
