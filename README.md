@@ -1,16 +1,16 @@
 # ✨ Frontend Snippets & Code Experiments
 
-This repository collects small-scale front-end projects and experiments originally built on [CodePen](https://codepen.io/) or similar platforms. These snippets reflect my exploration of HTML, CSS, and JavaScript — focusing on layout design, interactivity, animation, and digital storytelling.
+This repo contains front-end projects and experiments inspired by The Odin Project and CodePen [CodePen](https://codepen.io/) — showing my journey exploring HTML, CSS, and JavaScript fundamentals.
 
 ---
 
 ## 🧰 Tools & Technologies
 
-- HTML5 & Semantic Structure  
-- CSS (Flexbox, Grid, Animations)  
-- Vanilla JavaScript (DOM interaction, logic flow)  
-- Responsive design practices  
-- Custom buttons, cards, headers, and layout components  
+- Semantic HTML structure  
+- CSS layout techniques (Flexbox, Grid)  
+- Interactive enhancements with Vanilla JS  
+- Responsive, accessible UI components  
+- Design + storytelling intuition 
 
 ---
 
